@@ -1,3 +1,26 @@
-.WelcomeText{
-    text-align: center;
+body{
+    padding: 150px 300px;
+}
+.submit-area{
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 50px;
+}
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: steelblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
 }
